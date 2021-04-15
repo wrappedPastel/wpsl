@@ -2,8 +2,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "zeppelin/contracts/token/ERC20/ERC20.sol";
-import "zeppelin/contracts/access/Ownable.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/access/Ownable.sol";
+
+
 
 contract WPSL is ERC20, Ownable {
 
@@ -17,6 +19,8 @@ contract WPSL is ERC20, Ownable {
   mapping (address => mapping (string => PSL)) public PastelTransfers;
 
   uint256 public sentToPSL;
+  
+  string constant public pslMultiSig = "ptJEVxQJ9spxa2Hp9vWxiEf3EhAWvQ1hCaS";
 
   event TransferToPSL(
     uint indexed    blockNum,
