@@ -1,4 +1,4 @@
-#Wrapped Pastel (wPSL) is an ERC20 token backed 1:1 with Pastel. 100% verifiable.
+# Wrapped Pastel (wPSL) is an ERC20 token backed 1:1 with Pastel. 100% verifiable. Entirely Transparent. 
 
 The Smart Contract for Wrapped PSL(wPSL) is fully live and functional the Ethereum Mainnet.
 
